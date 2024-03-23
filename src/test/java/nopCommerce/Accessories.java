@@ -17,6 +17,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Accessories {
 	WebDriver driver;
 	ExtentReports report;
@@ -34,8 +36,7 @@ public class Accessories {
 	
 	@BeforeMethod(alwaysRun = true)
 	public void Setup() {
-		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\HP\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		test.log(LogStatus.PASS, "Chrome Browser has opened successfully.");
 		driver.get("https://demo.nopcommerce.com/");

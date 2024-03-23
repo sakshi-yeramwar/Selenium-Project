@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-02T07:10:18Z" name="Default suite" finished-at="2024-02-02T07:11:09Z" duration-ms="51508">
+  <suite started-at="2024-03-01T18:18:51Z" name="Default suite" finished-at="2024-03-01T18:19:13Z" duration-ms="21710">
     <groups>
     </groups>
-    <test started-at="2024-02-02T07:10:18Z" name="Default test" finished-at="2024-02-02T07:11:09Z" duration-ms="51508">
-      <class name="nopCommerce.findElements">
-        <test-method is-config="true" signature="setup()[pri:0, instance:nopCommerce.findElements@3daf7722]" started-at="2024-02-02T12:40:18Z" name="setup" finished-at="2024-02-02T12:41:09Z" duration-ms="51249" status="PASS">
+    <test started-at="2024-03-01T18:18:51Z" name="Default test" finished-at="2024-03-01T18:19:13Z" duration-ms="21710">
+      <class name="nopCommerce.Accessories">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:48:51Z" name="configureReport" finished-at="2024-03-01T23:48:51Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="elements()[pri:0, instance:nopCommerce.findElements@3daf7722]" started-at="2024-02-02T12:41:09Z" name="elements" finished-at="2024-02-02T12:41:09Z" duration-ms="218" status="PASS">
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:48:51Z" name="Setup" finished-at="2024-03-01T23:48:56Z" duration-ms="5003" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elements -->
-      </class> <!-- nopCommerce.findElements -->
+        </test-method> <!-- Setup -->
+        <test-method signature="product1()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:48:56Z" name="product1" finished-at="2024-03-01T23:49:00Z" duration-ms="4280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:00Z" name="teardown" finished-at="2024-03-01T23:49:01Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:01Z" name="Setup" finished-at="2024-03-01T23:49:04Z" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="product2()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:04Z" name="product2" finished-at="2024-03-01T23:49:07Z" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:07Z" name="teardown" finished-at="2024-03-01T23:49:07Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:07Z" name="Setup" finished-at="2024-03-01T23:49:09Z" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="product3()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:09Z" name="product3" finished-at="2024-03-01T23:49:12Z" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:12Z" name="teardown" finished-at="2024-03-01T23:49:12Z" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="last()[pri:0, instance:nopCommerce.Accessories@1869fbd2]" started-at="2024-03-01T23:49:12Z" name="last" finished-at="2024-03-01T23:49:13Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- nopCommerce.Accessories -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
